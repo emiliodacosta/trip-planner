@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #C1B5AD;
+  }
+
+  #map {
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  header {
+    display: flex;
+    position: fixed;
+    background-color: rebeccapurple;
+    height: 10vh;
+    width: 100vw;
+    z-index: 2;
+  }
+
+  #wrapper {
+    display: flex;
+    flex-flow: row;
+  }
+  
+  #sidebar {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    width: 25vw;
+    background: rgb(23, 213, 238);
+  }
+
+#destinos {
+    display: flex;
+    background: sandybrown;
+    height: 45vh;
+    z-index: 1;
+}
+
+#it_title {
+    display: flex;
+    background-color: #C1B5AD;
+    height: 10vh;
+    padding: 50px;
+}
+
+h2 {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#itinerary {
+    display: flex;
+    background: rgb(103, 175, 20);
+    height: 45vh;
+    z-index: 1;
+}
